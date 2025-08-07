@@ -1,0 +1,42 @@
+<div class="peekai-modal" data-theme="light">
+  <div class="peekai-modal-header">
+    <div class="peekai-modal-title">PeekAI</div>
+    <div class="peekai-modal-controls">
+      <button class="peekai-minimize" title="Minimize">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="5" y1="12" x2="19" y2="12"/>
+        </svg>
+      </button>
+      <button class="peekai-close" title="Close">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="18" y1="6" x2="6" y2="18"/>
+          <line x1="6" y1="6" x2="18" y2="18"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+  
+  <div class="peekai-modal-body">
+    <div class="peekai-question-section">
+      <textarea 
+        class="peekai-question-input" 
+        placeholder="Ask me anything about this page or selected text..."
+        rows="3"
+      ></textarea>
+      <button class="peekai-ask-btn">Ask</button>
+    </div>
+    
+    <div class="peekai-answer-section" style="display: none;">
+      <div class="peekai-answer-content"></div>
+      
+      <div class="peekai-followup-section">
+        <input 
+          type="text" 
+          class="peekai-followup-input" 
+          placeholder="Ask a follow-up question..."
+        />
+        <button class="peekai-followup-btn">Send</button>
+      </div>
+    </div>
+  </div>
+</div>
